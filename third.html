@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Pani Puri Webpage</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="Project.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="Project.html#about PP">About Pani Puri</a>
+                    </li>
+                    <li>
+                        <a href="Project.html#Our Menu">Our Menu</a>
+                    </li>
+                    <li>
+                        <a href="second.html">Opening Hours</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <caption>
+                <img src="pani-puri eat.jpg" alt="Another Pani Puri Pic"
+                    width="300" height="200">
+                <figcaption>Eat Pani Puri!</figcaption>    
+            </caption>
+        </header>
+         
+        <main>
+            <h2>Our Contact Form</h2>
+            <article>
+                <Form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Send Us a Message</legend>
+                        <p>
+                            <label for="firstName">Name:</label>
+                            <input type="text" name="firstName" id="firstName" placeholder="Your Name" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" autocomplete="on" placeholder="Your Email" required>
+                        </p>
+                        <p>
+                            <label for="phone">Contact No.:</label>
+                            <input type="tel" name="phone" id="phone" placeholder="9999999999" required
+                            pattern="[0-9]{10}">
+                        </p>
+                        <fieldset>
+                            <legend>Your Message:</legend>
+                            <p>
+                                <label for="note"></label>
+                                <textarea name="note" id="note" cols="30" rows="10" 
+                                        placeholder="Type Your message here"></textarea>
+                            </p>
+                        </fieldset>
+                    </fieldset>
+
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                </Form>
+            </article>
+
+            <article>
+                <h2>Our Location</h2>
+                <nbsp></nbsp>
+                <address>
+                    Near D-Mart, Hingna
+                    <br>
+                     Nagpur
+                     <br>
+                     Maharashtra
+                     
+                </address>
+                <p>
+                    <em>Phone: 5555555555</em>
+                </p>
+            </article>
+            <a href="#">Back to Top</a>
+        </main>
+        <footer>
+             <p>
+                Copyright &copy; The Pani Puri Wala
+            </p>
+        </footer>
+    </body>
+</html>
